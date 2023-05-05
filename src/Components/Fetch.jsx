@@ -1,5 +1,4 @@
 import { Component } from "react";
-import axios from "axios";
 class FetchMethod extends Component {
   constructor(props) {
     super(props);
