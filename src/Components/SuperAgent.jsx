@@ -1,5 +1,4 @@
 import { Component } from "react";
-import axios from 'axios'
 import superagent from 'superagent'
 class SuperAgent extends Component {
   constructor(props) {
