@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import CRUDAPI from './Components/AXIOS';
+import XHRMethod from './Components/XhrMethod';
+import SuperAgent from './Components/SuperAgent';
+import QwestMethod from './Components/Qwest';
+import FetchMethod from './Components/Fetch';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <XHRMethod/> */}
+        {/* <FetchMethod/> */}
+        <CRUDAPI/>
+        {/* <SuperAgent/> */}
+        {/* <QwestMethod/> */}
     </div>
   );
 }

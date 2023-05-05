@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "title": "The Times of Book",
+      "author": "Mani",
+      "formDate": "2023-05-18",
+      "toDate": "2023-07-22",
+      "id": 1
+    },
+    {
+      "title": "The Times Of Value",
+      "author": "Mani",
+      "formDate": "2023-05-11",
+      "toDate": "2023-05-10",
+      "id": 2
+    },
+    {
+      "title": "The Value Of Many",
+      "author": "ArunV",
+      "formDate": "2023-07-13",
+      "toDate": "2023-05-10",
+      "id": 3
+    }
+  ]
+}
