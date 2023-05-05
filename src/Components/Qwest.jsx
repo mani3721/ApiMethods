@@ -1,5 +1,4 @@
 import { Component } from "react";
-import axios from 'axios'
 import qwest from 'qwest'
 class QwestMethod extends Component {
   constructor(props) {
